@@ -1,7 +1,7 @@
 import { Typography } from 'antd';
 import { Checkbox, Input, Button } from 'antd';
-import { EditOutlined } from "@ant-design/icons";
-import { Link } from "react-router-dom";
+// import { EditOutlined } from "@ant-design/icons";
+// import { Link } from "react-router-dom";
 
 
 const { Title } = Typography;
@@ -30,9 +30,9 @@ function TodoListItems() {
         >
           Delete
         </Button>
-        <Link to="/todo/edit">
+        {/* <Link to="/todo/edit">
           <Button type="primary" icon={<EditOutlined />} />
-        </Link>
+        </Link> */}
       </div>
     ))}
   </>
